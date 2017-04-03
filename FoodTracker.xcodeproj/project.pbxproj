@@ -15,6 +15,7 @@
 		4204F0A71E920ED700CDD69E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4204F0A51E920ED700CDD69E /* LaunchScreen.storyboard */; };
 		4204F0B21E920ED700CDD69E /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204F0B11E920ED700CDD69E /* FoodTrackerTests.swift */; };
 		4204F0BD1E920ED700CDD69E /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204F0BC1E920ED700CDD69E /* FoodTrackerUITests.swift */; };
+		4204F0CB1E921ED600CDD69E /* FoodTableItemClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204F0CA1E921ED600CDD69E /* FoodTableItemClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4204F0B81E920ED700CDD69E /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4204F0BC1E920ED700CDD69E /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		4204F0BE1E920ED700CDD69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4204F0CA1E921ED600CDD69E /* FoodTableItemClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableItemClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4204F0A31E920ED700CDD69E /* Assets.xcassets */,
 				4204F0A51E920ED700CDD69E /* LaunchScreen.storyboard */,
 				4204F0A81E920ED700CDD69E /* Info.plist */,
+				4204F0CA1E921ED600CDD69E /* FoodTableItemClass.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4204F0CB1E921ED600CDD69E /* FoodTableItemClass.swift in Sources */,
 				4204F09F1E920ED700CDD69E /* SecondViewController.swift in Sources */,
 				4204F09B1E920ED700CDD69E /* AppDelegate.swift in Sources */,
 				4204F09D1E920ED700CDD69E /* FirstViewController.swift in Sources */,
