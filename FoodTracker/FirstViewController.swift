@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreData
 
-class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class FirstViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet weak var ListingTableView: UITableView!
     
@@ -67,6 +68,10 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         cell.ExpDateLabel?.text = tableData[indexPath.item][1]
         return cell
     }
+}
+
+extension FirstViewController: UITableViewDataSource{
+    
 }
 
 class FoodDisplayCell: UITableViewCell{
