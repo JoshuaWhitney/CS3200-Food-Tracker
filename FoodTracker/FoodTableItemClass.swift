@@ -18,7 +18,7 @@ class FoodTableItemClass{
         self.brand = brand
         self.date = date
     }
-    
+    /*
     required init(coder decoder: NSCoder) {
         self.name = decoder.decodeObject(forKey: "name") as! String
         self.brand = decoder.decodeObject(forKey: "brand") as! String
@@ -30,7 +30,7 @@ class FoodTableItemClass{
         coder.encode(self.name, forKey: "name")
         coder.encode(self.brand, forKey: "brand")
         coder.encode(self.date, forKey: "currentDate")
-    }
+    }*/
     
     
 }
